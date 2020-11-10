@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container{
+    width: fit-content;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+.gridborder{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+}
+
+.changecolor{
+    background-color: black;
+}
+
+button{
+    width: 60px;
+    height: 35px;
+    background-color: lightblue;
+    color: black;
+    margin-left: 200px;
+}
